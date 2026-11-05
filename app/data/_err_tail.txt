@@ -1,0 +1,25 @@
+﻿#6 D:\Coding\ERP-System\app\start.php(32): require('D:\\Coding\\ERP-S...')
+#7 {main}
+  thrown in D:\Coding\ERP-System\app\database.php on line 33
+[15-Aug-2026 19:28:26 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: could not find driver in D:\Coding\ERP-System\app\database.php:33
+Stack trace:
+#0 D:\Coding\ERP-System\app\database.php(33): PDO->__construct('mysql:host=loca...', 'root', Object(SensitiveParameterValue))
+#1 D:\Coding\ERP-System\app\database.php(13): Database->connect()
+#2 D:\Coding\ERP-System\app\database.php(19): Database->__construct()
+#3 D:\Coding\ERP-System\app\config.php(71): Database::getInstance()
+#4 D:\Coding\ERP-System\app\init.php(6): require_once('D:\\Coding\\ERP-S...')
+#5 D:\Coding\ERP-System\app\index.php(2): require_once('D:\\Coding\\ERP-S...')
+#6 D:\Coding\ERP-System\app\start.php(32): require('D:\\Coding\\ERP-S...')
+#7 {main}
+  thrown in D:\Coding\ERP-System\app\database.php on line 33
+[15-Aug-2026 19:28:26 Asia/Kolkata] PHP Fatal error:  Uncaught PDOException: could not find driver in D:\Coding\ERP-System\app\database.php:33
+Stack trace:
+#0 D:\Coding\ERP-System\app\database.php(33): PDO->__construct('mysql:host=loca...', 'root', Object(SensitiveParameterValue))
+#1 D:\Coding\ERP-System\app\database.php(13): Database->connect()
+#2 D:\Coding\ERP-System\app\database.php(19): Database->__construct()
+#3 D:\Coding\ERP-System\app\config.php(71): Database::getInstance()
+#4 D:\Coding\ERP-System\app\init.php(6): require_once('D:\\Coding\\ERP-S...')
+#5 D:\Coding\ERP-System\app\index.php(2): require_once('D:\\Coding\\ERP-S...')
+#6 D:\Coding\ERP-System\app\start.php(32): require('D:\\Coding\\ERP-S...')
+#7 {main}
+  thrown in D:\Coding\ERP-System\app\database.php on line 33

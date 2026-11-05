@@ -1,0 +1,8 @@
+# ERP System - Apache Configuration
+Options -Indexes
+DirectoryIndex index.php
+
+# Protect data directory
+<IfModule mod_rewrite.c>
+    RewriteRule ^data/ - [F,L]
+</IfModule>
